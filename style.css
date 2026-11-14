@@ -1,1 +1,32 @@
-.
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+#splash-screen {
+    position: fixed;
+    inset: 0;
+    background: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#splash-screen h1 {
+    color: #0878ff;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#homepage {
+    display: none;
+    padding: 30px;
+}
